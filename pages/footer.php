@@ -1,6 +1,6 @@
     
     
-    <footer>
+    <footer class="text-center">
         <p>Todos os direitos reservados</p>
     </footer>
     <script

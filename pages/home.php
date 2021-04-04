@@ -8,7 +8,7 @@
     </div>
     
     <div class="form" id="form">
-        <p class="">Resultado da Busca: </p>
+        <p style="color: white;">Resultado da Busca: </p>
         <form method="get" action=".">
             <div class="form-group">
                 <input class="InputStyle" name="rua" type="text" id="logradouro" size="60"/>

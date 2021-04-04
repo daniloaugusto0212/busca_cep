@@ -1,7 +1,7 @@
 var inputsCEP = $('#logradouro, #bairro, #localidade, #uf, #ibge');
 var inputsRUA = $('#cep, #bairro, #ibge');
 var validacep = /^[0-9]{8}$/;
-
+$('.form').hide()
 function limpa_formulário_cep(alerta) {
   if (alerta !== undefined) {
     alert(alerta);
@@ -56,7 +56,7 @@ $('#cep').on('blur', function (e) {
 
     inputsCEP.val('...');
     get('https://viacep.com.br/ws/' + cep + '/json/');
-    $('.form').css('display', 'block')
+    $('.form').show()
 
   } else {
     limpa_formulário_cep(cep == "" ? undefined : "Formato de CEP inválido.");

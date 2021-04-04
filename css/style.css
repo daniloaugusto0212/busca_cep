@@ -4,11 +4,15 @@
     box-sizing: border-box;
 }
 
+.bg-primary {
+    background-color: #003457!important;
+}
+
 /*Styles template*/
 .bg {
     width: 100%;
     height: auto;
-    min-height: 100vh;
+    min-height: 84.1vh;
     background-image: linear-gradient(to right, #003457, #1397CC, #BE7904, #E0B100);
     background-size: 100% 100%;
     background-position: top center
@@ -20,7 +24,7 @@
 
 .centered {
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%)
 }
@@ -34,7 +38,7 @@
 }
 
 .form-group .InputStyle{
-    margin-left: 25px;
+    margin-left: 35px;
 }
 
 input,
@@ -77,9 +81,9 @@ input:focus {
 }
 
 .form {
-    /*display: none;*/
+    /* display: none; */
     position: relative;
-    top: 350px; 
+    top: 280px; 
 }
 
 i.fa-copy {
@@ -104,6 +108,16 @@ i.fa-copy {
 
 .box-alert i.fa-check {
     color: #003457;
+}
+
+footer {
+    background-color: #003457;
+    padding: 1px;
+}
+
+footer p {
+    color: white;
+    margin-top: 15px;
 }
 
 @media only screen and (max-width: 600px) {
