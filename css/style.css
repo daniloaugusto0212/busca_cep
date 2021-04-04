@@ -29,6 +29,13 @@
     transform: translate(-50%, -50%)
 }
 
+#address .centered {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
 .InputStyle {
     border-radius: 25px;
     border: solid 1px white;
@@ -71,7 +78,7 @@ input:focus {
 .secondLine {
     font-weight: 350;
     font-size: 15px;
-    margin-bottom: 15%;
+    margin-bottom: 8%;
     color: white
 }
 
@@ -84,6 +91,10 @@ input:focus {
     /* display: none; */
     position: relative;
     top: 280px; 
+}
+
+#address .form {
+    top: 410px;
 }
 
 i.fa-copy {

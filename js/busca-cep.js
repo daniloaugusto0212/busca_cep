@@ -40,6 +40,7 @@ $('#logradouro, #localidade, #uf').on('blur', function (e) {
 
     inputsRUA.val('...');
     get('https://viacep.com.br/ws/' + $('#uf').val() + '/' + $('#localidade').val() + '/' + $('#logradouro').val() + '/json/');
+    $('.form').show()
 
   }
 
